@@ -1,26 +1,12 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leopard@^1/dist/index.min.css"
-    />
+    <meta charset="UTF-8">
+    <title>Math - 8-C-01-Grade 8-C G-Pirie</title>
+    <style>*{margin:0;}</style>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.1.5/pixi.min.js"></script>
+    <script src="script.js"></script>
+		<link rel="icon" href="https://s.brightspace.com/lib/favicon/2.0.0/favicon.ico">
   </head>
   <body>
-    <button id="greenFlag">Green Flag</button>
-    <div id="project"></div>
-
-    <script type="module">
-      import project from "./index.js";
-
-      project.attach("#project");
-
-      document.querySelector("#greenFlag").addEventListener("click", () => {
-        project.greenFlag();
-      });
-
-      // Autoplay
-      project.greenFlag();
-    </script>
   </body>
 </html>
